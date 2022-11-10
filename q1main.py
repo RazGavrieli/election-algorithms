@@ -1,7 +1,7 @@
 from elections import *
 
 parties = initializePartiesFromFile('results.csv')
-j=0.5
+j=0.5 # f(s) = s+1-j
 if j == 0:
     print("jeffersons f(s) = s +", str(1-j))
 elif j == 0.5:
